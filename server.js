@@ -38,7 +38,7 @@ function handleError(res, reason, message, code) {
 
 //change username, password+securitytoken as per your org
 app.get("/contacts", function(req, res) {
-  org.authenticate({ username: 'skyline@sidgs.com', password: 'zxcvbnm@123'}, function(err, oauth){
+  org.authenticate({ username: 'skyline@sidgs.com', password: 'zxcvbnm@1236Cel800D2w00000AhKYz8882w000004uRkvmsdUSDMnD4TXppx5nIgKVUMVSb0bEM63aXCQNrNwgHwR5gpcmAJ4cfIXonYEWzOYIXikmNbI'}, function(err, oauth){
     if(err) {
       console.log('Error: ' + err.message);
     } else {
