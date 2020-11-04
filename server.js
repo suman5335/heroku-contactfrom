@@ -38,11 +38,7 @@ function handleError(res, reason, message, code) {
 
 //change username, password+securitytoken as per your org
 app.get("/contacts", function(req, res) {
-<<<<<<< HEAD
   org.authenticate({ username: 'skyline@sidgs.com', password: 'zxcvbnm@123'}, function(err, oauth){
-=======
-  org.authenticate({ username: 'test@sean.org', password: 's3@nstackWPGlG6shuetQopXoeFdqjh4y'}, function(err, oauth){
->>>>>>> 0596e06bc05d70e4c872e45876fa6f370ad52c9a
     if(err) {
       console.log('Error: ' + err.message);
     } else {
