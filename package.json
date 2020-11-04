@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shashforce/seanstack.git"
+    "url": "https://github.com/suman5335/heroku-contactfrom"
   },
   "keywords": [
     "nforce",
@@ -18,7 +18,7 @@
     "Salesforce"
   ],
   "author": "Shashank Srivatsavaya",
-  "homepage": "https://github.com/shashforce/seanstack",
+  "homepage": "https://github.com/suman5335/heroku-contactfrom",
   "dependencies": {
     "body-parser": "^1.13.3",
     "express": "^4.13.3",

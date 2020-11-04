@@ -1,6 +1,6 @@
 {
   "name": "SEAN stack Contacts CRUD app",
   "description": "",
-  "repository": "https://github.com/shashforce/seanstack",
+  "repository": "https://github.com/suman5335/heroku-contactfrom",
   "keywords": ["node", "express", "angular", "SEAN", "Salesforce", "REST", "API"]
 }
