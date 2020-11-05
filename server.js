@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 
 //nforce setup - change clientId, clientSecret, redirectUri(for not username/password flow) as per your org/app
 var org = nforce.createConnection({
-  clientId: "3MVG9n_HvETGhr3APnZ5ivip.LBhPf4gD13DTLDGaUFbP7cbwlHuUEDNBhC.E.8tL3sFZThzBACNm696pnQ5S",
-  clientSecret: "4B52CB66DE06808C47678D18108EA8F5924C519846A25976AA6ACE329B2F1E42",
+  clientId: "3MVG9n_HvETGhr3AeuL1wUsvnfQlXu_ZzQsXRnqJOA8g5fCVgsnmWB.jsMTTV8dASy.wog2uGksu6gE3aoseN",
+  clientSecret: "7AE5183749C3895C5A49F8BC990A2FB6C86118D1B811632488DACC91DBC6BEBC",
   redirectUri: "https://heroku-contactform/oauth/_callback",
   apiVersion: "v37.0",
   environment: "production",
@@ -38,7 +38,7 @@ function handleError(res, reason, message, code) {
 
 //change username, password+securitytoken as per your org
 app.get("/contacts", function(req, res) {
-  org.authenticate({ username: 'skyline@sidgs.com', password: 'zxcvbnm@1236Cel800D2w00000AhKYz8882w000004uRkvmsdUSDMnD4TXppx5nIgKVUMVSb0bEM63aXCQNrNwgHwR5gpcmAJ4cfIXonYEWzOYIXikmNbI'}, function(err, oauth){
+  org.authenticate({ username: 'sumanbalusu@sidgs.com', password: 'qwerty@123rVqvHP6drtdOExzfTOf0norlh'}, function(err, oauth){
     if(err) {
       console.log('Error: ' + err.message);
     } else {
