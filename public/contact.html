@@ -1,4 +1,4 @@
-<div class = "row" style="background-color:orange">
+<div class = "row" style="background-color:skyblue">
   <div class="col-md-6">
     <h2>
       {{ contact.firstname }} {{ contact.lastname }}
@@ -12,7 +12,7 @@
   <div class="col-md-1">
   </div>
 </div>
-<div ng-hide="editMode" class="container" style="background-color:rgb(170, 170, 87)">
+<div ng-hide="editMode" class="container" style="background-color:skyblue">
   <div>
     <p ng-if="contact.email">email: <a ng-href="mailto:{{ contact.email }}" target="_blank">{{ contact.email }}</a></p>
     <p ng-if="contact.mobilephone">phone (m): {{ contact.mobilephone }} </p>
